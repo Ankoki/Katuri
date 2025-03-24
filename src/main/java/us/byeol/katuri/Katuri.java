@@ -128,7 +128,7 @@ public class Katuri extends JavaPlugin {
                                         })
                                         .addItem(results.toArray(new ItemStack[0]));
                                 GUI.registerGUI(resultGui);
-                                player.sendMessage("§e§b[!] §7Your operation is complete, please collect the broken blocks.");
+                                player.sendMessage("§e§b[!] §7Your operation is complete, please collect the broken blocks and remaining tools.");
                                 player.closeInventory(); // JIC
                                 resultGui.openTo(player);
                             });
